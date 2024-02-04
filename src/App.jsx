@@ -1,7 +1,10 @@
-import './App.css';
+// import CountryCard from './components/CountryCard';
 import Header from './components/Header';
 import SearchBar from './components/SearchBar';
 import SearchMenu from './components/SearchMenu';
+
+import './App.css';
+import CountriesList from './components/CountriesList';
 
 
 function App() {
@@ -13,6 +16,7 @@ function App() {
   <SearchBar/>
   <SearchMenu/>
   </div>
+  <CountriesList/>
   </main>
   </>
   )
