@@ -9,7 +9,7 @@ export default function CountryCard({
   capital,
 }) {
   return (
-    <Link className="country-card" to={`/country?name=${name}`}>
+    <Link className="country-card" to={`/${name}`}>
       <img src={flag} alt={name + "Flag"} />
       <div className="card-text">
         <h3 className="card-tittle">{name}</h3>

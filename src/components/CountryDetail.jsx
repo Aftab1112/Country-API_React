@@ -1,36 +1,48 @@
 import React, { useEffect, useState } from "react";
 import "./CountryDetail.css";
+import { useParams } from "react-router-dom";
 
 export default function CountryDetail() {
-  const countryName = new URLSearchParams(window.location.search).get("name");
+  const params = useParams();
+  const countryName = params.country;
 
   const [countryData, setCountryData] = useState(null);
+  const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
     async function fetchCountry() {
-      const response = await fetch(
-        `https://restcountries.com/v3.1/name/${countryName}?fullText=true`
-      );
-      const [country] = await response.json();
-      console.log(country);
-      setCountryData({
-        flag: country.flags.svg,
-        name: country.name.common,
-        nativeName: Object.values(country.name.nativeName)[0].common,
-        population: country.population,
-        region: country.region,
-        subRegion: country.subregion,
-        capital: country.capital.join(", "),
-        topLevelDomain: country.tld.join(", "),
-        currencies: Object.values(country.currencies)
-          .map((currencies) => currencies.name)
-          .join(", "),
-        languages: Object.values(country.languages).join(", "),
-      });
+      try {
+        const response = await fetch(
+          `https://restcountries.com/v3.1/name/${countryName}?fullText=true`
+        );
+        const [country] = await response.json();
+        setCountryData({
+          flag: country.flags.svg,
+          name: country.name.common,
+          nativeName: Object.values(country.name.nativeName)[0].common,
+          population: country.population,
+          region: country.region,
+          subRegion: country.subregion,
+          capital: country.capital.join(", "),
+          topLevelDomain: country.tld.join(", "),
+          currencies: Object.values(country.currencies)
+            .map((currencies) => currencies.name)
+            .join(", "),
+          languages: Object.values(country.languages).join(", "),
+        });
+      } catch (error) {
+        setNotFound(true);
+      }
     }
+
     fetchCountry();
+
     // eslint-disable-next-line
   }, []);
+
+  if (notFound) {
+    return <div> Country Not Found</div>;
+  }
   return countryData === null ? (
     "loading..."
   ) : (
