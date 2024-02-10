@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
+import CountryDetail from "./components/CountryDetail";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/country",
+        element: <CountryDetail />,
       },
     ],
   },
