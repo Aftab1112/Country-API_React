@@ -48,7 +48,7 @@ export default function CountryDetail() {
   ) : (
     <main>
       <div className="country-details-container">
-        <span className="back-button">
+        <span className="back-button" onClick={() => window.history.back()}>
           <i className="fa-solid fa-arrow-left"></i>&nbsp;&nbsp;Back
         </span>
         <div className="country-details">
