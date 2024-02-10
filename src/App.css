@@ -140,6 +140,9 @@ a {
 }
 
 @media (max-width: 768px) {
+  .filter-by-region {
+    margin-left: 35px;
+  }
   .countries-container {
     justify-content: center;
   }
