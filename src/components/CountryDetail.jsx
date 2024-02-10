@@ -29,6 +29,7 @@ export default function CountryDetail() {
       });
     }
     fetchCountry();
+    // eslint-disable-next-line
   }, []);
   return countryData === null ? (
     "loading..."
