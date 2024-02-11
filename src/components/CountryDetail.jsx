@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./CountryDetail.css";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export default function CountryDetail() {
   const params = useParams();
@@ -29,6 +29,25 @@ export default function CountryDetail() {
             .map((currencies) => currencies.name)
             .join(", "),
           languages: Object.values(country.languages).join(", "),
+          borders: [],
+        });
+
+        if (!country.borders) {
+          country.borders = [];
+        }
+        // eslint-disable-next-line
+        country.borders.map((border) => {
+          async function borderCountriesAll() {
+            const response = await fetch(
+              `https://restcountries.com/v3.1/alpha/${border}`
+            );
+            const [borderCountry] = await response.json();
+            setCountryData((prevState) => ({
+              ...prevState,
+              borders: [...prevState.borders, borderCountry.name.common],
+            }));
+          }
+          borderCountriesAll();
         });
       } catch (error) {
         setNotFound(true);
@@ -36,9 +55,7 @@ export default function CountryDetail() {
     }
 
     fetchCountry();
-
-    // eslint-disable-next-line
-  }, []);
+  }, [countryName]);
 
   if (notFound) {
     return <div> Country Not Found</div>;
@@ -91,9 +108,16 @@ export default function CountryDetail() {
                 <span className="languages"></span>
               </p>
             </div>
-            <div className="border-countries">
-              <b>Border Countries : </b>
-            </div>
+            {countryData.borders.length !== 0 && (
+              <div className="border-countries">
+                <b>Border Countries : </b>
+                {countryData.borders.map((border) => (
+                  <Link key={border} to={`/${border}`}>
+                    {border}
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>
