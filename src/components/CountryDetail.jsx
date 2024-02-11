@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./CountryDetail.css";
-import { Link, useParams } from "react-router-dom";
+import { Link, useOutletContext, useParams } from "react-router-dom";
 import CountryDetailShimmer from "./CountryDetailShimmer";
 
 export default function CountryDetail() {
@@ -9,6 +9,7 @@ export default function CountryDetail() {
 
   const [countryData, setCountryData] = useState(null);
   const [notFound, setNotFound] = useState(false);
+  const [isDark] = useOutletContext();
 
   useEffect(() => {
     async function fetchCountry() {
@@ -64,7 +65,7 @@ export default function CountryDetail() {
   return countryData === null ? (
     <CountryDetailShimmer />
   ) : (
-    <main>
+    <main className={`${isDark ? "dark" : ""}`}>
       <div className="country-details-container">
         <span className="back-button" onClick={() => window.history.back()}>
           <i className="fa-solid fa-arrow-left"></i>&nbsp;&nbsp;Back
