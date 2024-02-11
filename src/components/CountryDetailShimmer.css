@@ -1,0 +1,60 @@
+.back-btn {
+  height: 36px;
+  width: 106px;
+  border-radius: 4px;
+  background-color: #ccc;
+}
+
+.shimmer-card-img {
+  height: 310px;
+  width: 476px;
+  background-color: #ccc;
+}
+
+.text-details {
+  height: 310px;
+  width: 476px;
+}
+
+.country-details {
+  gap: 64px;
+  display: flex;
+  align-items: center;
+}
+.country-name1 {
+  margin-top: 40px;
+  height: 44px;
+  width: 250px;
+  background-color: #ccc;
+}
+
+.all-detail1 {
+  margin-top: 45px;
+  height: 22px;
+  width: 165px;
+  background-color: #ccc;
+}
+.all-detail2 {
+  margin-top: 10px;
+  height: 22px;
+  width: 165px;
+  background-color: #ccc;
+}
+.all-detail3 {
+  margin-top: 10px;
+  height: 22px;
+  width: 165px;
+  background-color: #ccc;
+}
+.all-detail4 {
+  margin-top: 10px;
+  height: 22px;
+  width: 165px;
+  background-color: #ccc;
+}
+.all-detail5 {
+  margin-top: 10px;
+  height: 22px;
+  width: 165px;
+  background-color: #ccc;
+}

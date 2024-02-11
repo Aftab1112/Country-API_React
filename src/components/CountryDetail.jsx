@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./CountryDetail.css";
 import { Link, useParams } from "react-router-dom";
+import CountryDetailShimmer from "./CountryDetailShimmer";
 
 export default function CountryDetail() {
   const params = useParams();
@@ -61,7 +62,7 @@ export default function CountryDetail() {
     return <div> Country Not Found</div>;
   }
   return countryData === null ? (
-    "loading..."
+    <CountryDetailShimmer />
   ) : (
     <main>
       <div className="country-details-container">
