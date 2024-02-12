@@ -2,6 +2,7 @@ import "./App.css";
 import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
 import { useState } from "react";
+import { themeContext } from "./contexts/ThemeContext";
 
 const App = () => {
   const [isDark, setIsDark] = useState(
@@ -9,8 +10,10 @@ const App = () => {
   );
   return (
     <>
-      <Header theme={[isDark, setIsDark]} />
-      <Outlet context={[isDark, setIsDark]} />
+      <themeContext.Provider value={[isDark, setIsDark]}>
+        <Header />
+        <Outlet />
+      </themeContext.Provider>
     </>
   );
 };
