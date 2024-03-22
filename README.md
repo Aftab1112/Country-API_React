@@ -54,10 +54,10 @@ Explore a React project demonstrating advanced React and vanilla CSS skills, fea
 
 <div >
   
-  <img width="250" height="270" src="https://github.com/Aftab1112/Text-Editor-App/assets/148782555/c877f8cf-7558-4b83-b758-46c43d09ad5e" />
+  <img width="410" height="205" src="https://github.com/Aftab1112/Text-Editor-App/assets/148782555/c877f8cf-7558-4b83-b758-46c43d09ad5e" />
 
 
- <img width="250" height="270" src="https://github.com/Aftab1112/Text-Editor-App/assets/148782555/c8971409-3a87-41ae-af5f-ec1f07183737" />
+ <img width="410" height="205" src="https://github.com/Aftab1112/Text-Editor-App/assets/148782555/c8971409-3a87-41ae-af5f-ec1f07183737" />
  
   
 </div>
