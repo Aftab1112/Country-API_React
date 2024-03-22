@@ -1,70 +1,75 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Rest Countries API
 
-## Available Scripts
+It presents an advanced level challenge from a website called Frontend Mentor.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Explore a React project demonstrating advanced React and vanilla CSS skills, featuring dynamic country data display, search, region filtering, custom light/dark mode, seamless transitions via React Router, responsive design, and a unique shimmering effect for enhanced UX.
+## Tech Stack 
 
-### `npm test`
+* HTML
+* CSS
+* Javascript
+* React JS
+* React Router
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Dynamic country data display using Fetch API
+* Search functionality for easy navigation
+* Region filtering for targeted data exploration
+* Customizable light/dark mode for personalized viewing
+* Seamless transitions powered by React Router
+* Responsive design ensuring compatibility across devices
+* Unique shimmering effect enhancing user experience
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Initial Design of Project
 
-### `npm run eject`
+* Click the link below to view the initial design challenge provided by the Frontend Mentor website.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[REST Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* I have also included images for reference : 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<div align="center">
+  
+  <img width="500" height="270" src="https://github-production-user-asset-6210df.s3.amazonaws.com/148782555/316036537-7454a75b-6511-48a9-a681-09bfc3367b50.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240322%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240322T140542Z&X-Amz-Expires=300&X-Amz-Signature=14e54725d1afeef2323ce9d1e599bcff99e08852208e5c68362f6a0ca7fd034c&X-Amz-SignedHeaders=host&actor_id=148782555&key_id=0&repo_id=745038345" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ <img width="500" height="270" src="https://github-production-user-asset-6210df.s3.amazonaws.com/148782555/316038351-7cc61b5d-5776-45be-942e-5ee6c5347000.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240322%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240322T140744Z&X-Amz-Expires=300&X-Amz-Signature=8d79de199a0054127ef2c26c6ca818b636d71c8d0d67029ab8535433a81f1606&X-Amz-SignedHeaders=host&actor_id=148782555&key_id=0&repo_id=745038345" />
+  
+</div>
 
-## Learn More
+## My Final Design
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Click the link below to view my project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[REST Countries API](https://where-in-the-world-are-you.netlify.app/)
 
-### Code Splitting
+* My Project Images : 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<div align="center">
+  
+  <img width="500" height="270" src="https://github.com/Aftab1112/Text-Editor-App/assets/148782555/c877f8cf-7558-4b83-b758-46c43d09ad5e" />
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ <img width="500" height="270" src="https://github.com/Aftab1112/Text-Editor-App/assets/148782555/c8971409-3a87-41ae-af5f-ec1f07183737" />
+ 
+  
+</div>
 
-### Making a Progressive Web App
+---
+*Author* : **Aftab Reshamwale**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  Please feel free to suggest any improvements for my project.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
