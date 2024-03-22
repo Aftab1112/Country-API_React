@@ -38,9 +38,9 @@ Explore a React project demonstrating advanced React and vanilla CSS skills, fea
 
 <div >
   
-  <img width="410" height="270" src="https://github-production-user-asset-6210df.s3.amazonaws.com/148782555/316036537-7454a75b-6511-48a9-a681-09bfc3367b50.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240322%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240322T140542Z&X-Amz-Expires=300&X-Amz-Signature=14e54725d1afeef2323ce9d1e599bcff99e08852208e5c68362f6a0ca7fd034c&X-Amz-SignedHeaders=host&actor_id=148782555&key_id=0&repo_id=745038345" />
+  <img width="410" height="205" src="https://github-production-user-asset-6210df.s3.amazonaws.com/148782555/316036537-7454a75b-6511-48a9-a681-09bfc3367b50.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240322%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240322T140542Z&X-Amz-Expires=300&X-Amz-Signature=14e54725d1afeef2323ce9d1e599bcff99e08852208e5c68362f6a0ca7fd034c&X-Amz-SignedHeaders=host&actor_id=148782555&key_id=0&repo_id=745038345" />
 
- <img width="410" height="270" src="https://github-production-user-asset-6210df.s3.amazonaws.com/148782555/316038351-7cc61b5d-5776-45be-942e-5ee6c5347000.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240322%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240322T140744Z&X-Amz-Expires=300&X-Amz-Signature=8d79de199a0054127ef2c26c6ca818b636d71c8d0d67029ab8535433a81f1606&X-Amz-SignedHeaders=host&actor_id=148782555&key_id=0&repo_id=745038345" />
+ <img width="410" height="205" src="https://github-production-user-asset-6210df.s3.amazonaws.com/148782555/316038351-7cc61b5d-5776-45be-942e-5ee6c5347000.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240322%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240322T140744Z&X-Amz-Expires=300&X-Amz-Signature=8d79de199a0054127ef2c26c6ca818b636d71c8d0d67029ab8535433a81f1606&X-Amz-SignedHeaders=host&actor_id=148782555&key_id=0&repo_id=745038345" />
   
 </div>
 
