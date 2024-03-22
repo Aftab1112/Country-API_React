@@ -32,7 +32,7 @@ Explore a React project demonstrating advanced React and vanilla CSS skills, fea
 
 * Click the link below to view the initial design challenge provided by the Frontend Mentor website.
 
-[REST Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
+* [REST Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
 
 * I have also included images for reference : 
 
@@ -48,7 +48,7 @@ Explore a React project demonstrating advanced React and vanilla CSS skills, fea
 
 * Click the link below to view my project.
 
-[REST Countries API](https://where-in-the-world-are-you.netlify.app/)
+* [REST Countries API](https://where-in-the-world-are-you.netlify.app/)
 
 * My Project Images : 
 
