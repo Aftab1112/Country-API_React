@@ -36,7 +36,7 @@ Explore a React project demonstrating advanced React and vanilla CSS skills, fea
 
 * I have also included images for reference : 
 
-<div align="center">
+<div >
   
   <img width="500" height="270" src="https://github-production-user-asset-6210df.s3.amazonaws.com/148782555/316036537-7454a75b-6511-48a9-a681-09bfc3367b50.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240322%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240322T140542Z&X-Amz-Expires=300&X-Amz-Signature=14e54725d1afeef2323ce9d1e599bcff99e08852208e5c68362f6a0ca7fd034c&X-Amz-SignedHeaders=host&actor_id=148782555&key_id=0&repo_id=745038345" />
 
@@ -52,7 +52,7 @@ Explore a React project demonstrating advanced React and vanilla CSS skills, fea
 
 * My Project Images : 
 
-<div align="center">
+<div >
   
   <img width="500" height="270" src="https://github.com/Aftab1112/Text-Editor-App/assets/148782555/c877f8cf-7558-4b83-b758-46c43d09ad5e" />
 
